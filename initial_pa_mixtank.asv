@@ -1,0 +1,22 @@
+clear; clc;
+%%
+% Parameter for mix tank
+%%
+global den V x1 x2 w2 
+den = 1000;  % density of liquid 
+V = 1;
+
+x1 = 0.4; 
+x2 = 0.75;
+
+w2 = 200;
+
+w10 = 500;
+x0 = 0.5;
+
+dt = 1;
+t = 0;
+for i = 1:1:1000
+    t(i)= i*dt;
+    
+end
